@@ -14,7 +14,7 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Load YOLOv8 model (coco dataset)
-yolo_model = YOLO('yolov8x.pt')  # Use the nano model for speed; can change to yolov8s.pt for more accuracy
+yolo_model = YOLO('yolov8x.pt')  # Use the nano model for speed; can change up to yolov8x.pt for more accuracy
 
 # Confidence threshold for detections (0.0 to 1.0)
 CONFIDENCE_THRESHOLD = 0.15  # Default YOLOv8 threshold, can be lowered to catch more objects
