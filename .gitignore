@@ -3,3 +3,4 @@ venv/
 uploads/
 oldapp.py/
 runs/
+__pycache__/
