@@ -54,6 +54,3 @@ A Flask web application for automated property cleaning checklists and before/af
   - Model files are large and managed with Git LFS. If you don't see them after cloning, install Git LFS and run `git lfs pull`.
 - **Customization:**
   - You can add or modify cleaning instructions in the `CLEANING_INSTRUCTIONS` dictionary in `app.py`.
-
-## License
-This project is for demonstration and internal use. Please contact the author for licensing details. 
